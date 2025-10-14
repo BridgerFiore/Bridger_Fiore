@@ -16,8 +16,5 @@ Open any HTML file in your browser or use a simple server:
 python -m http.server 8000
 ```
 
-## Publish to GitHub Pages
-1. Create a repository named `USERNAME.github.io`.
-2. Push these files to the `main` branch.
-3. In **Settings → Pages**, select the `main` branch as the source.
-4. Wait ~1–2 minutes, then visit `https://USERNAME.github.io`.
+## Link to webpage
+https://bridgerfiore.github.io/Bridger_Fiore/
