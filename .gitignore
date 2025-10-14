@@ -1,0 +1,7 @@
+# OS / tooling
+.DS_Store
+Thumbs.db
+node_modules/
+.venv/
+__pycache__/
+*.log
