@@ -6,10 +6,22 @@
   <title>Projects — Bridger Fiore</title>
   <meta name="description" content="Personal e-portfolio for Bridger Fiore" />
   <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Page-specific styles (format the screenshot here) -->
+  <style>
+    .project-img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 10px auto 16px auto; /* center the image */
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+  </style>
 </head>
 <body>
 <header class="site-header">
-  <nav class="nav">
+  <nav class="nav" aria-label="Main">
     <a class="brand" href="index.html">Bridger Fiore</a>
     <input id="nav-toggle" type="checkbox" />
     <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">☰</label>
@@ -41,7 +53,8 @@
     <article class="card">
       <h3>Blog Website (Django)</h3>
       <p>A personal blog web app built with Django — includes models, templates, and tests for posts.</p>
-      <img src="blogpage.png" alt="Screenshot of my Django Blog Website" class="project-img">
+      <!-- Screenshot: make sure blogpage.png sits next to projects.html -->
+      <img src="blogpage.png" alt="Screenshot of my Django Blog Website" class="project-img" loading="lazy">
       <p>
         <a class="btn" href="https://github.com/BridgerFiore/Bridger_Fiore/tree/main/blog" target="_blank" rel="noopener noreferrer">
           View on GitHub
